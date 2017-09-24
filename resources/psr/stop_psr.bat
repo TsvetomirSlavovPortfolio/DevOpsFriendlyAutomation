@@ -1,0 +1,1 @@
+psr.exe /stop

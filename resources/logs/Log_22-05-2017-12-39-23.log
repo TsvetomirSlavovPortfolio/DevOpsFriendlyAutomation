@@ -1,0 +1,165 @@
+2017-05-22 12:39:23 INFO  [Log] - NO Process is running by the name : chromedriver.exe 
+2017-05-22 12:39:23 INFO  [Log] - NO Process is running by the name : EXCEL.EXE 
+2017-05-22 12:39:23 INFO  [Log] - NO Process is running by the name : psr.exe 
+2017-05-22 12:39:23 INFO  [Log] - **************************************************************************************** 
+2017-05-22 12:39:23 INFO  [Log] - **************************************************************************************** 
+2017-05-22 12:39:23 INFO  [Log] - $$$$$$$$$$$$$$$$$$$$$                 CPQ_MAT_Flow       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-05-22 12:39:23 INFO  [Log] - **************************************************************************************** 
+2017-05-22 12:39:23 INFO  [Log] - **************************************************************************************** 
+2017-05-22 12:39:24 INFO  [Log] - Excel sheet opened where SheetName= Sheet1 
+2017-05-22 12:39:24 INFO  [Log] - Total number of Row used return as < 3 >. 
+2017-05-22 12:39:27 INFO  [Log] - New Chrome driver initialized 
+2017-05-22 12:39:28 INFO  [Log] - Implicit wait applied on the driver for 10 seconds 
+2017-05-22 12:39:34 INFO  [Log] - Web application launched successfully on URL - https://ilcm32906.eaas.amdocs.com:28501/B2B/ 
+2017-05-22 12:39:34 INFO  [Log] - 
+---------------------------------------  Login Page Test Case Begins  --------------------------------------- 
+ 
+2017-05-22 12:39:34 INFO  [Log] - Object Repository File Path for CPQ Login Page :C:\Java_Workspace\CPQ_GUI_Automation\OnlineStore_TestNG\resources\Object_Repository\CPQ_Login.ini 
+2017-05-22 12:39:35 INFO  [Log] - Element - txt_UserName is found on page 
+2017-05-22 12:39:35 INFO  [Log] - Element Section Name is :Login_Obj_Property and Element Object Property is ://INPUT[@type='text'] 
+2017-05-22 12:39:35 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:35 INFO  [Log] - Username Asmsa1 successfully entered on CPQ Login screen 
+2017-05-22 12:39:35 INFO  [Log] - Element - txt_Password is found on page 
+2017-05-22 12:39:35 INFO  [Log] - Element Section Name is :Login_Obj_Property and Element Object Property is ://INPUT[@type='password'] 
+2017-05-22 12:39:35 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:35 INFO  [Log] - Password Asmsa1 successfully entered on CPQ Login screen 
+2017-05-22 12:39:35 INFO  [Log] - Element - btn_Submit is found on page 
+2017-05-22 12:39:35 INFO  [Log] - Element Section Name is :Login_Obj_Property and Element Object Property is ://BUTTON[@type='submit'] 
+2017-05-22 12:39:35 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:35 INFO  [Log] - Click on Submit Login Button is performed on CPQ Login screen 
+2017-05-22 12:39:35 INFO  [Log] - 
+---------------------------------------  Create Customer Page Test Case Begins  --------------------------------------- 
+ 
+2017-05-22 12:39:35 INFO  [Log] - Object Repository File Path for Create_Customer :C:\Java_Workspace\CPQ_GUI_Automation\OnlineStore_TestNG\resources\Object_Repository\Create_Customer.ini 
+2017-05-22 12:39:35 INFO  [Log] - Element - txt_CustomerID_Input is found on page 
+2017-05-22 12:39:35 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='customerIdInput'] 
+2017-05-22 12:39:35 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:35 INFO  [Log] - Element - btn_Menu is found on page 
+2017-05-22 12:39:35 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://div[@id='root']/div/section/header/a 
+2017-05-22 12:39:35 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:36 INFO  [Log] - Element - lnk_NewCustomer is found on page 
+2017-05-22 12:39:36 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://BUTTON[@class='btn btn-link'][text()='New Customer'] 
+2017-05-22 12:39:36 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:36 INFO  [Log] - Element - lnk_NewCustomer is found on page 
+2017-05-22 12:39:36 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://BUTTON[@class='btn btn-link'][text()='New Customer'] 
+2017-05-22 12:39:36 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:37 INFO  [Log] - Element - drpDown_CustomerType is found on page 
+2017-05-22 12:39:37 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://section[@name='customerType'] 
+2017-05-22 12:39:37 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:37 INFO  [Log] - Element - txt_CustomerName is found on page 
+2017-05-22 12:39:37 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='customerName'] 
+2017-05-22 12:39:37 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:38 INFO  [Log] - Element - drpDown_CustomerType is found on page 
+2017-05-22 12:39:38 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://section[@name='customerType'] 
+2017-05-22 12:39:38 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:38 INFO  [Log] - Element - drpDown_CustomerType is found on page 
+2017-05-22 12:39:38 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://section[@name='customerType'] 
+2017-05-22 12:39:38 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:38 INFO  [Log] - Element - drpDown_CustomerType_Corporate is found on page 
+2017-05-22 12:39:38 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://section[@name="customerType"]//li[2] 
+2017-05-22 12:39:38 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:38 INFO  [Log] - Element - drpDown_CustomerSubtype is found on page 
+2017-05-22 12:39:38 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://section[@name='customerSubtype'] 
+2017-05-22 12:39:38 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:38 INFO  [Log] - Element - drpDown_CustomerSubtype is found on page 
+2017-05-22 12:39:38 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://section[@name='customerSubtype'] 
+2017-05-22 12:39:38 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:38 INFO  [Log] - Element - drpDown_CustomerSubtype_Federal is found on page 
+2017-05-22 12:39:38 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://section[@name="customerSubtype"]//li[1] 
+2017-05-22 12:39:38 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:39 INFO  [Log] - Element - drpDown_NumberEmployees is found on page 
+2017-05-22 12:39:39 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://section[@name='numberEmployees'] 
+2017-05-22 12:39:39 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:39 INFO  [Log] - Element - drpDown_NumberEmployees is found on page 
+2017-05-22 12:39:39 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://section[@name='numberEmployees'] 
+2017-05-22 12:39:39 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:39 INFO  [Log] - Element - drpDown_NumberEmployees_10_99 is found on page 
+2017-05-22 12:39:39 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://section[@name="numberEmployees"]//li[3] 
+2017-05-22 12:39:39 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:39 INFO  [Log] - Element - txt_NumberSites is found on page 
+2017-05-22 12:39:39 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='numberSites'] 
+2017-05-22 12:39:39 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:39 INFO  [Log] - Element - txt_Address1 is found on page 
+2017-05-22 12:39:39 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='address1'] 
+2017-05-22 12:39:39 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:39 INFO  [Log] - Element - txt_Address2 is found on page 
+2017-05-22 12:39:39 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='address2'] 
+2017-05-22 12:39:39 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:39 INFO  [Log] - Element - txt_City is found on page 
+2017-05-22 12:39:39 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='city'] 
+2017-05-22 12:39:39 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:39 INFO  [Log] - Element - txt_ZipCode is found on page 
+2017-05-22 12:39:39 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='zipCode'] 
+2017-05-22 12:39:39 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:40 INFO  [Log] - Element - txt_FirstName is found on page 
+2017-05-22 12:39:40 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='firstName'] 
+2017-05-22 12:39:40 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:40 INFO  [Log] - Element - txt_LastName is found on page 
+2017-05-22 12:39:40 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='lastName'] 
+2017-05-22 12:39:40 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:40 INFO  [Log] - Element - txt_PhoneNumber is found on page 
+2017-05-22 12:39:40 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='phoneNumber'] 
+2017-05-22 12:39:40 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:40 INFO  [Log] - Element - txt_Email is found on page 
+2017-05-22 12:39:40 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='email'] 
+2017-05-22 12:39:40 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:40 INFO  [Log] - Element - txt_Email2 is found on page 
+2017-05-22 12:39:40 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://input[@name='email2'] 
+2017-05-22 12:39:40 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:40 INFO  [Log] - Element - btn_Create is found on page 
+2017-05-22 12:39:40 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://SPAN[text()='Create'] 
+2017-05-22 12:39:40 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:40 INFO  [Log] - Element - btn_Create is found on page 
+2017-05-22 12:39:40 INFO  [Log] - Element Section Name is :Create_Cust_Property and Element Object Property is ://SPAN[text()='Create'] 
+2017-05-22 12:39:40 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:44 INFO  [Log] - 
+---------------------------------------  Select Customer Page Test Case Begins  --------------------------------------- 
+ 
+2017-05-22 12:39:44 INFO  [Log] - Element - txt_CustomerID_Input is found on page 
+2017-05-22 12:39:44 INFO  [Log] - Element Section Name is :Select_Cust_Property and Element Object Property is ://input[@name='customerIdInput'] 
+2017-05-22 12:39:44 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:44 INFO  [Log] - Element - txt_CustomerID_Input is found on page 
+2017-05-22 12:39:44 INFO  [Log] - Element Section Name is :Select_Cust_Property and Element Object Property is ://input[@name='customerIdInput'] 
+2017-05-22 12:39:44 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:44 INFO  [Log] - Element - btn_SelectCustomer_Submit is found on page 
+2017-05-22 12:39:44 INFO  [Log] - Element Section Name is :Select_Cust_Property and Element Object Property is ://BUTTON[@class='btn btn-primary'][text()='Select'] 
+2017-05-22 12:39:44 INFO  [Log] - --------------------------------------------------------------------------------------------------------------------------- 
+2017-05-22 12:39:44 INFO  [Log] - 
+---------------------------------------  Printing Customer Details Database Response  --------------------------------------- 
+2017-05-22 12:39:46 INFO  [Log] - 
+---------------------------------********* CRM DB Retrieve Value *********--------------------------------- 
+2017-05-22 12:39:46 INFO  [Log] - Retrieving Records Using Statement from CRM DB where Table name is  TABLE_Customer 
+2017-05-22 12:39:46 INFO  [Log] - SQL : Select CUSTOMER_ID,NAME,TYPE,SUBTYPE from TABLE_Customer where CUSTOMER_ID='100000037' 
+2017-05-22 12:39:46 INFO  [Log] - SUBTYPE : Federal Government 
+2017-05-22 12:39:46 INFO  [Log] - CUSTOMER_ID : 100000037 
+2017-05-22 12:39:46 INFO  [Log] - TYPE : Corporate 
+2017-05-22 12:39:46 INFO  [Log] - NAME : Rahul_Kinge25175 
+2017-05-22 12:39:46 INFO  [Log] - 
+---------------------------------------  Printing Customer Details REST Response  --------------------------------------- 
+2017-05-22 12:39:46 INFO  [Log] - The POST REST is fired for URI = https://ilcm32906.eaas.amdocs.com:28501/securitymanagement-ms/Login 
+2017-05-22 12:39:46 INFO  [Log] - Pay load for REST is = {"user":"Asmsa1","password":"Asmsa1"} 
+2017-05-22 12:39:48 INFO  [Log] - REST_Status_Code = 200 
+2017-05-22 12:39:48 INFO  [Log] - REST_Content_Type = application/json 
+2017-05-22 12:39:48 INFO  [Log] - Response_Time = 1364 
+2017-05-22 12:39:48 INFO  [Log] - REST_Session_ID = scou_Y34TRlHyWvGFLjf9IPzMF0Qt1NOAjg4Xhy_-h0l_XWjSw7t!-1276940189 
+2017-05-22 12:39:48 INFO  [Log] - REST_Response = {} 
+2017-05-22 12:39:48 INFO  [Log] - -----------------------------------------------------------XOX------------------------------------------------------------------
+ 
+2017-05-22 12:39:48 INFO  [Log] - The POST REST is fired for  URI = https://ilcm32906.eaas.amdocs.com:28501/customers-ms/customer-management/v1/customers/100000037 
+2017-05-22 12:39:50 INFO  [Log] - -----------------------------------------------------------XOX------------------------------------------------------------------
+ 
+2017-05-22 12:39:50 INFO  [Log] - Customer_Subtype_Title : Federal Government 
+2017-05-22 12:39:50 INFO  [Log] - Customer_Type_ID : C 
+2017-05-22 12:39:50 INFO  [Log] - ORG_ID : AN_CUST20 
+2017-05-22 12:39:50 INFO  [Log] - Contact_ID : 22 
+2017-05-22 12:39:50 INFO  [Log] - Customer_Name : Rahul_Kinge25175 
+2017-05-22 12:39:50 INFO  [Log] - Customer_Type_Title : Corporate 
+2017-05-22 12:39:50 INFO  [Log] - ORG_Name : Rahul_Kinge25175 
+2017-05-22 12:39:50 INFO  [Log] - Customer_ID : 100000037 
+2017-05-22 12:39:50 INFO  [Log] - Customer_Subtype_ID : F 
+2017-05-22 12:39:50 INFO  [Log] - Contact_Name : Rahul25175 Kinge25175 
+2017-05-22 12:39:50 INFO  [Log] - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-05-22 12:39:50 INFO  [Log] - X 
+2017-05-22 12:39:50 INFO  [Log] - X 
+2017-05-22 12:39:50 INFO  [Log] - X 
+2017-05-22 12:39:50 INFO  [Log] - X 
