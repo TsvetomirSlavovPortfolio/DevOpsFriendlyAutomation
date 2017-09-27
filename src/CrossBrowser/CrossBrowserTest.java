@@ -6,17 +6,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class CrossBrowserTest 
 {
 	// Adding second commit
-	// Showing Nikhil Source Code
 	WebDriver driver;
 	@BeforeMethod
 	@Parameters({"browser", "driverPath"})
-	public void beforeTest(String browser, String driverPath) 
+	public void beforeTest(String browser, @Optional("driverPath")String driverPath) 
 	{
 		if (browser.equalsIgnoreCase("firefox")) 
 		{
@@ -26,13 +26,13 @@ public class CrossBrowserTest
 		else if (browser.equalsIgnoreCase("chrome")) 
 		{
 			System.out.println("launching chrome browser");
-			System.setProperty("webdriver.chrome.driver",driverPath);
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+driverPath);
 			driver = new ChromeDriver();
 		} 
 		else if (browser.equalsIgnoreCase("ie")) 
 		{
 			System.out.println("launching ie browser");
-			System.setProperty("webdriver.ie.driver",driverPath);
+			System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+driverPath);
 			driver = new InternetExplorerDriver();
 		} 
 		else 

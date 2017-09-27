@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Suite" parallel="tests">
+<suite name="Suite" parallel="tests" verbose="2">
 	<test name="FirefoxTest">
 		<parameter name="browser" value="firefox" />
-		<parameter name="driverPath" value="" />
 		<classes>
 			<class name="CrossBrowser.CrossBrowserTest" />
 		</classes>
@@ -12,7 +11,7 @@
 	
 	<test name="ChromeTest">
 		<parameter name="browser" value="chrome" />
-		<parameter name="driverPath" value="C:/Java_WorkSpace/Drivers and Jars/Drivers/Chrome/2.32/chromedriver.exe" />
+		<parameter name="driverPath" value="/lib/Drivers/Chrome/2.32/chromedriver.exe" />
 		<classes>
 			<class name="CrossBrowser.CrossBrowserTest" />
 		</classes>
@@ -20,7 +19,7 @@
 	
 	<test name="IETest">
 		<parameter name="browser" value="ie" />
-		<parameter name="driverPath" value="C:/Java_WorkSpace/Drivers and Jars/Drivers/IE/IEDriverServer.exe" />
+		<parameter name="driverPath" value="/lib/Drivers/IE/IEDriverServer.exe" />
 		<classes>
 			<class name="CrossBrowser.CrossBrowserTest" />
 		</classes>

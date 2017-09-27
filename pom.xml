@@ -158,7 +158,7 @@
 
 						<suiteXmlFiles>
 							<!-- TestNG suite XML files -->
-							<suiteXmlFile>CrossBrowser_testng.xml</suiteXmlFile>
+							<suiteXmlFile>${basedir}/CrossBrowser_testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
