@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="i"/>
+  <parameter name="driverPath" value="/lib/Drivers/IE/IEDriverServer.exe"/>
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="i"/>
+    <parameter name="driverPath" value="/lib/Drivers/IE/IEDriverServer.exe"/>
+    <classes>
+      <class name="CrossBrowser.CrossBrowserTest">
+        <methods>
+          <include name="login"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- CrossBrowser.CrossBrowserTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

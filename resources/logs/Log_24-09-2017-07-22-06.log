@@ -1,0 +1,26 @@
+2017-09-24 19:22:06 INFO  [Log] - NO Process is running by the name : chromedriver.exe 
+2017-09-24 19:22:06 INFO  [Log] - NO Process is running by the name : EXCEL.EXE 
+2017-09-24 19:22:06 INFO  [Log] - NO Process is running by the name : psr.exe 
+2017-09-24 19:22:06 INFO  [Log] - **************************************************************************************** 
+2017-09-24 19:22:06 INFO  [Log] - **************************************************************************************** 
+2017-09-24 19:22:06 INFO  [Log] - $$$$$$$$$$$$$$$$$$$$$                 CPQ_MAT_Flow       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-09-24 19:22:06 INFO  [Log] - **************************************************************************************** 
+2017-09-24 19:22:06 INFO  [Log] - **************************************************************************************** 
+2017-09-24 19:22:07 INFO  [Log] - Excel sheet opened where SheetName= Sheet1 
+2017-09-24 19:22:07 INFO  [Log] - Total number of Row used return as < 1 >. 
+2017-09-24 19:22:07 ERROR [Log] - Class Utils | Method OpenBrowser | Exception desc : The driver executable does not exist: C:\Java_Workspace\lib\chromedriver_win32\chromedriver.exe 
+2017-09-24 19:22:07 INFO  [Log] - 
+---------------------------------------  Login Page Test Case Begins  --------------------------------------- 
+ 
+2017-09-24 19:22:07 INFO  [Log] - Object Repository File Path for CPQ Login Page :C:\Java_WorkSpace\DevOpsFriendlyAutomation\resources\Object_Repository\CPQ_Login.ini 
+2017-09-24 19:22:07 ERROR [Log] - IOException Exception Thrown 
+2017-09-24 19:22:07 ERROR [Log] - C:\Java_WorkSpace\DevOpsFriendlyAutomation\resources\Object_Repository\CPQ_Login.ini (The system cannot find the file specified) 
+2017-09-24 19:22:07 ERROR [Log] - IOException Exception Thrown 
+2017-09-24 19:22:07 ERROR [Log] - C:\Java_WorkSpace\DevOpsFriendlyAutomation\resources\Object_Repository\CPQ_Login.ini (The system cannot find the file specified) 
+2017-09-24 19:22:07 ERROR [Log] -  
+2017-09-24 19:22:07 ERROR [Log] - Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2017-09-24 19:22:07 INFO  [Log] - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-09-24 19:22:07 INFO  [Log] - X 
+2017-09-24 19:22:07 INFO  [Log] - X 
+2017-09-24 19:22:07 INFO  [Log] - X 
+2017-09-24 19:22:07 INFO  [Log] - X 

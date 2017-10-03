@@ -10,10 +10,10 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+
 public class CrossBrowserTest 
-{
-	// Adding second commit
-	WebDriver driver;
+{	
+	WebDriver driver=null;
 	@BeforeMethod
 	@Parameters({"browser", "driverPath"})
 	public void beforeTest(String browser, @Optional("driverPath")String driverPath) 

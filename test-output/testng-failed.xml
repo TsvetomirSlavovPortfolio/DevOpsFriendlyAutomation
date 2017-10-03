@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ExtentReports.ExtentReport_Screenshot">
+        <methods>
+          <include name="getResult"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="demoTestFail"/>
+          <include name="demoTestSkip"/>
+          <include name="extentReport_Screenshot"/>
+        </methods>
+      </class> <!-- ExtentReports.ExtentReport_Screenshot -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
